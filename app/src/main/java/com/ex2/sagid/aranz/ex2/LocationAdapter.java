@@ -1,0 +1,30 @@
+package com.ex2.sagid.aranz.ex2;
+
+import android.content.Context;
+import android.database.Cursor;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.CursorAdapter;
+
+/**
+ * Created by aranz on 19-Apr-16.
+ */
+public class LocationAdapter extends CursorAdapter {
+
+    public LocationAdapter(Context context, Cursor c) {
+        super(context, c);
+    }
+
+    @Override
+    public View newView(Context context, Cursor cursor, ViewGroup parent) {
+        return null;
+    }
+
+    @Override
+    public void bindView(View view, Context context, Cursor cursor) {
+
+    }
+
+
+}
